@@ -18,12 +18,6 @@
 		5EDC96661B57FB94007C0EE8 /* SocialItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC96651B57FB94007C0EE8 /* SocialItemCell.m */; };
 		5EDC96691B580CF9007C0EE8 /* SocialItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC96681B580CF9007C0EE8 /* SocialItem.m */; };
 		5EDC966C1B580D7E007C0EE8 /* UIColor+ItemColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC966B1B580D7E007C0EE8 /* UIColor+ItemColors.m */; };
-		5EDC966E1B581114007C0EE8 /* icon-facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EDC966D1B581114007C0EE8 /* icon-facebook.png */; };
-		5EDC96701B58111B007C0EE8 /* icon-instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EDC966F1B58111B007C0EE8 /* icon-instagram.png */; };
-		5EDC96721B581124007C0EE8 /* icon-twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EDC96711B581124007C0EE8 /* icon-twitter.png */; };
-		5EDC96741B58112B007C0EE8 /* icon-vimeo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EDC96731B58112B007C0EE8 /* icon-vimeo.png */; };
-		5EDC96761B581133007C0EE8 /* icon-youtube.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EDC96751B581133007C0EE8 /* icon-youtube.png */; };
-		5EDC967B1B584E61007C0EE8 /* icon-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EDC967A1B584E61007C0EE8 /* icon-back.png */; };
 		5EDC967E1B584FB4007C0EE8 /* ZoomingIconTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC967D1B584FB4007C0EE8 /* ZoomingIconTransition.m */; };
 /* End PBXBuildFile section */
 
@@ -59,12 +53,6 @@
 		5EDC96681B580CF9007C0EE8 /* SocialItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialItem.m; sourceTree = "<group>"; };
 		5EDC966A1B580D7E007C0EE8 /* UIColor+ItemColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ItemColors.h"; sourceTree = "<group>"; };
 		5EDC966B1B580D7E007C0EE8 /* UIColor+ItemColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ItemColors.m"; sourceTree = "<group>"; };
-		5EDC966D1B581114007C0EE8 /* icon-facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-facebook.png"; sourceTree = "<group>"; };
-		5EDC966F1B58111B007C0EE8 /* icon-instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-instagram.png"; sourceTree = "<group>"; };
-		5EDC96711B581124007C0EE8 /* icon-twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-twitter.png"; sourceTree = "<group>"; };
-		5EDC96731B58112B007C0EE8 /* icon-vimeo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-vimeo.png"; sourceTree = "<group>"; };
-		5EDC96751B581133007C0EE8 /* icon-youtube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-youtube.png"; sourceTree = "<group>"; };
-		5EDC967A1B584E61007C0EE8 /* icon-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-back.png"; sourceTree = "<group>"; };
 		5EDC967C1B584FB4007C0EE8 /* ZoomingIconTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomingIconTransition.h; sourceTree = "<group>"; };
 		5EDC967D1B584FB4007C0EE8 /* ZoomingIconTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomingIconTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,12 +111,6 @@
 				5EDC96451B57FAD4007C0EE8 /* Main.storyboard */,
 				5EDC967C1B584FB4007C0EE8 /* ZoomingIconTransition.h */,
 				5EDC967D1B584FB4007C0EE8 /* ZoomingIconTransition.m */,
-				5EDC966D1B581114007C0EE8 /* icon-facebook.png */,
-				5EDC966F1B58111B007C0EE8 /* icon-instagram.png */,
-				5EDC96711B581124007C0EE8 /* icon-twitter.png */,
-				5EDC96731B58112B007C0EE8 /* icon-vimeo.png */,
-				5EDC96751B581133007C0EE8 /* icon-youtube.png */,
-				5EDC967A1B584E61007C0EE8 /* icon-back.png */,
 				5EDC96481B57FAD4007C0EE8 /* Images.xcassets */,
 				5EDC964A1B57FAD4007C0EE8 /* LaunchScreen.xib */,
 				5EDC963B1B57FAD4007C0EE8 /* Supporting Files */,
@@ -242,14 +224,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EDC96721B581124007C0EE8 /* icon-twitter.png in Resources */,
-				5EDC966E1B581114007C0EE8 /* icon-facebook.png in Resources */,
-				5EDC967B1B584E61007C0EE8 /* icon-back.png in Resources */,
 				5EDC96471B57FAD4007C0EE8 /* Main.storyboard in Resources */,
-				5EDC96701B58111B007C0EE8 /* icon-instagram.png in Resources */,
 				5EDC964C1B57FAD4007C0EE8 /* LaunchScreen.xib in Resources */,
-				5EDC96741B58112B007C0EE8 /* icon-vimeo.png in Resources */,
-				5EDC96761B581133007C0EE8 /* icon-youtube.png in Resources */,
 				5EDC96491B57FAD4007C0EE8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,6 +446,7 @@
 				5EDC965D1B57FAD4007C0EE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EDC965E1B57FAD4007C0EE8 /* Build configuration list for PBXNativeTarget "Zooming IconsTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +455,7 @@
 				5EDC96601B57FAD4007C0EE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

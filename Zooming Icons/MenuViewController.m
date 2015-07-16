@@ -26,10 +26,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-//    [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"SocialCell"];
     
-    //use [CIColor colorWithString:@""] and then [UIColor colorWithCIColor:CIColor] to convert colour
     SocialItem *twitterItem = [[SocialItem alloc] initWithName:@"Twitter" summary:@"Twitter is an online social networking service that enables users to send and read short 140-character messages called \"tweets\"." imageString:@"icon-twitter" andColour:[UIColor twitterColour]];
     
     SocialItem *facebookItem = [[SocialItem alloc] initWithName:@"Facebook" summary: @"Facebook (formerly thefacebook) is an online social networking service headquartered in Menlo Park, California. Its name comes from a colloquialism for the directory given to students at some American universities." imageString:@"icon-facebook" andColour:[UIColor facebookColour]];
@@ -45,18 +42,8 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 #pragma mark <UICollectionViewDataSource>
 
@@ -70,7 +57,6 @@
     if (section == 0) {
         return 2;
     }
-    
     return 3;
 }
 
@@ -109,15 +95,10 @@
 - (SocialItemCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     
     SocialItemCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"SocialCell" forIndexPath:indexPath];
-    cell.layer.masksToBounds = YES;
-    cell.layer.cornerRadius = cell.frame.size.width/2;
-    
+    [cell layoutSubviews];
     NSInteger index = [self getAbsoluteIndex:indexPath];
     
-    //use layoutsubviews?
-    
     SocialItem *socialItem = self.itemsArray[index];
-
     cell.backgroundColor = socialItem.iconColour;
 
     UIImage *tempImage = [UIImage imageNamed: socialItem.imageName];
@@ -126,12 +107,9 @@
     
     UIGraphicsBeginImageContext(cell.imageView.bounds.size);
     CGContextRef context = UIGraphicsGetCurrentContext();
-
-    //flip image to correct orientation
     CGContextTranslateCTM(context, 0, cell.imageView.bounds.size.height);
     CGContextScaleCTM(context, 1.0, -1.0);
     CGContextDrawImage(context, rect, tempImage.CGImage);
-
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
 
@@ -143,11 +121,9 @@
 }
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    
     NSInteger index = [self getAbsoluteIndex:indexPath];
     SocialItem *tempSocialItem = self.itemsArray[index];
-    
-    
-    
     DetailViewController *detailVC = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailViewController"];
     [detailVC setDetailItem:tempSocialItem];
     [self.navigationController pushViewController:detailVC animated:YES];

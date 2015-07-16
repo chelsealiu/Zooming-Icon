@@ -13,11 +13,10 @@
 
 @property (weak, nonatomic) IBOutlet UIView *colourView;
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
--(void)layoutSubviews;
-@property (strong, nonatomic) SocialItem *socialItem;
 
 
--(id) initWithSocialItem:(SocialItem*)socialItem;
+//@property (strong, nonatomic) SocialItem *socialItem;
+//-(id) initWithSocialItem:(SocialItem*)socialItem;
 
 
 @end

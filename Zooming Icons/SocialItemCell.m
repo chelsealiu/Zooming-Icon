@@ -10,15 +10,15 @@
 
 @implementation SocialItemCell
 
--(id) initWithSocialItem:(SocialItem*)socialItem {
-    
-    self = [super init];
-    if (self) {
-        _socialItem = socialItem;
-    }
-    return self;
-    
-}
+//-(id) initWithSocialItem:(SocialItem*)socialItem {
+//    
+//    self = [super init];
+//    if (self) {
+//        _socialItem = socialItem;
+//    }
+//    return self;
+//    
+//}
 
 
 -(void)layoutSubviews {

@@ -19,8 +19,6 @@ NSTimeInterval const kZoomingIconTransitionDuration = 1;
     
 }
 
-
-// This method can only be a nop if the transition is interactive and not a percentDriven interactive transition.
 - (void)animateTransition:(id <UIViewControllerContextTransitioning>)transitionContext {
     
     NSTimeInterval timeInterval = [self transitionDuration:transitionContext];
@@ -39,14 +37,10 @@ NSTimeInterval const kZoomingIconTransitionDuration = 1;
     }];
 }
 
-
-
-
 - (id <UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController
                                    animationControllerForOperation:(UINavigationControllerOperation)operation
                                                 fromViewController:(UIViewController *)fromVC
                                                   toViewController:(UIViewController *)toVC {
-    
     return self;
 }
 

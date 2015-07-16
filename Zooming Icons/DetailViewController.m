@@ -21,10 +21,8 @@
 - (void)setDetailItem:(SocialItem*)newDetailItem {
     if (_detailItem != newDetailItem) {
         _detailItem = newDetailItem;
-    } 
-    
+    }
 }
-
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -48,7 +46,6 @@
     self.detailLabel.text = self.detailItem.itemSummary;
     self.view.backgroundColor = self.detailItem.iconColour;
     
-    
 }
 
     
@@ -58,10 +55,8 @@
 }
 
 
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface MenuViewController : UICollectionViewController <UICollectionViewDelegateFlowLayout>
--(NSInteger)getAbsoluteIndex:(NSIndexPath*)indexPath;
+
 @end

@@ -13,16 +13,13 @@
 -(id) initWithName: (NSString*)itemName summary:(NSString*)itemSummary imageString:(NSString*)imageName andColour:(UIColor*)iconColour {
     
     if (self = [super init]) {
-        
         _itemName = itemName;
         _itemSummary = itemSummary;
         _imageName = imageName;
         _iconColour = iconColour;
-
     }
     
     return self;
-    
 }
 
 @end

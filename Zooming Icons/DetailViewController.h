@@ -11,7 +11,6 @@
 
 @interface DetailViewController : UIViewController <UINavigationControllerDelegate>
 
-
 @property (retain, nonatomic) IBOutlet UIImageView *detailImageView;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *detailLabel;
