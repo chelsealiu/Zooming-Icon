@@ -9,11 +9,22 @@
 /* Begin PBXBuildFile section */
 		5EDC963E1B57FAD4007C0EE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC963D1B57FAD4007C0EE8 /* main.m */; };
 		5EDC96411B57FAD4007C0EE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC96401B57FAD4007C0EE8 /* AppDelegate.m */; };
-		5EDC96441B57FAD4007C0EE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC96431B57FAD4007C0EE8 /* ViewController.m */; };
+		5EDC96441B57FAD4007C0EE8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC96431B57FAD4007C0EE8 /* DetailViewController.m */; };
 		5EDC96471B57FAD4007C0EE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EDC96451B57FAD4007C0EE8 /* Main.storyboard */; };
 		5EDC96491B57FAD4007C0EE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EDC96481B57FAD4007C0EE8 /* Images.xcassets */; };
 		5EDC964C1B57FAD4007C0EE8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EDC964A1B57FAD4007C0EE8 /* LaunchScreen.xib */; };
 		5EDC96581B57FAD4007C0EE8 /* Zooming_IconsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC96571B57FAD4007C0EE8 /* Zooming_IconsTests.m */; };
+		5EDC96631B57FB01007C0EE8 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC96621B57FB01007C0EE8 /* MenuViewController.m */; };
+		5EDC96661B57FB94007C0EE8 /* SocialItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC96651B57FB94007C0EE8 /* SocialItemCell.m */; };
+		5EDC96691B580CF9007C0EE8 /* SocialItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC96681B580CF9007C0EE8 /* SocialItem.m */; };
+		5EDC966C1B580D7E007C0EE8 /* UIColor+ItemColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC966B1B580D7E007C0EE8 /* UIColor+ItemColors.m */; };
+		5EDC966E1B581114007C0EE8 /* icon-facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EDC966D1B581114007C0EE8 /* icon-facebook.png */; };
+		5EDC96701B58111B007C0EE8 /* icon-instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EDC966F1B58111B007C0EE8 /* icon-instagram.png */; };
+		5EDC96721B581124007C0EE8 /* icon-twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EDC96711B581124007C0EE8 /* icon-twitter.png */; };
+		5EDC96741B58112B007C0EE8 /* icon-vimeo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EDC96731B58112B007C0EE8 /* icon-vimeo.png */; };
+		5EDC96761B581133007C0EE8 /* icon-youtube.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EDC96751B581133007C0EE8 /* icon-youtube.png */; };
+		5EDC967B1B584E61007C0EE8 /* icon-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EDC967A1B584E61007C0EE8 /* icon-back.png */; };
+		5EDC967E1B584FB4007C0EE8 /* ZoomingIconTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC967D1B584FB4007C0EE8 /* ZoomingIconTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +43,30 @@
 		5EDC963D1B57FAD4007C0EE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5EDC963F1B57FAD4007C0EE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5EDC96401B57FAD4007C0EE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5EDC96421B57FAD4007C0EE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5EDC96431B57FAD4007C0EE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5EDC96421B57FAD4007C0EE8 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5EDC96431B57FAD4007C0EE8 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		5EDC96461B57FAD4007C0EE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EDC96481B57FAD4007C0EE8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5EDC964B1B57FAD4007C0EE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5EDC96511B57FAD4007C0EE8 /* Zooming IconsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zooming IconsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EDC96561B57FAD4007C0EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EDC96571B57FAD4007C0EE8 /* Zooming_IconsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Zooming_IconsTests.m; sourceTree = "<group>"; };
+		5EDC96611B57FB01007C0EE8 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		5EDC96621B57FB01007C0EE8 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		5EDC96641B57FB94007C0EE8 /* SocialItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialItemCell.h; sourceTree = "<group>"; };
+		5EDC96651B57FB94007C0EE8 /* SocialItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialItemCell.m; sourceTree = "<group>"; };
+		5EDC96671B580CF9007C0EE8 /* SocialItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialItem.h; sourceTree = "<group>"; };
+		5EDC96681B580CF9007C0EE8 /* SocialItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialItem.m; sourceTree = "<group>"; };
+		5EDC966A1B580D7E007C0EE8 /* UIColor+ItemColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ItemColors.h"; sourceTree = "<group>"; };
+		5EDC966B1B580D7E007C0EE8 /* UIColor+ItemColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ItemColors.m"; sourceTree = "<group>"; };
+		5EDC966D1B581114007C0EE8 /* icon-facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-facebook.png"; sourceTree = "<group>"; };
+		5EDC966F1B58111B007C0EE8 /* icon-instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-instagram.png"; sourceTree = "<group>"; };
+		5EDC96711B581124007C0EE8 /* icon-twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-twitter.png"; sourceTree = "<group>"; };
+		5EDC96731B58112B007C0EE8 /* icon-vimeo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-vimeo.png"; sourceTree = "<group>"; };
+		5EDC96751B581133007C0EE8 /* icon-youtube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-youtube.png"; sourceTree = "<group>"; };
+		5EDC967A1B584E61007C0EE8 /* icon-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-back.png"; sourceTree = "<group>"; };
+		5EDC967C1B584FB4007C0EE8 /* ZoomingIconTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomingIconTransition.h; sourceTree = "<group>"; };
+		5EDC967D1B584FB4007C0EE8 /* ZoomingIconTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomingIconTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +110,25 @@
 			children = (
 				5EDC963F1B57FAD4007C0EE8 /* AppDelegate.h */,
 				5EDC96401B57FAD4007C0EE8 /* AppDelegate.m */,
-				5EDC96421B57FAD4007C0EE8 /* ViewController.h */,
-				5EDC96431B57FAD4007C0EE8 /* ViewController.m */,
+				5EDC96611B57FB01007C0EE8 /* MenuViewController.h */,
+				5EDC96621B57FB01007C0EE8 /* MenuViewController.m */,
+				5EDC96421B57FAD4007C0EE8 /* DetailViewController.h */,
+				5EDC96431B57FAD4007C0EE8 /* DetailViewController.m */,
+				5EDC96641B57FB94007C0EE8 /* SocialItemCell.h */,
+				5EDC96651B57FB94007C0EE8 /* SocialItemCell.m */,
+				5EDC96671B580CF9007C0EE8 /* SocialItem.h */,
+				5EDC96681B580CF9007C0EE8 /* SocialItem.m */,
+				5EDC966A1B580D7E007C0EE8 /* UIColor+ItemColors.h */,
+				5EDC966B1B580D7E007C0EE8 /* UIColor+ItemColors.m */,
 				5EDC96451B57FAD4007C0EE8 /* Main.storyboard */,
+				5EDC967C1B584FB4007C0EE8 /* ZoomingIconTransition.h */,
+				5EDC967D1B584FB4007C0EE8 /* ZoomingIconTransition.m */,
+				5EDC966D1B581114007C0EE8 /* icon-facebook.png */,
+				5EDC966F1B58111B007C0EE8 /* icon-instagram.png */,
+				5EDC96711B581124007C0EE8 /* icon-twitter.png */,
+				5EDC96731B58112B007C0EE8 /* icon-vimeo.png */,
+				5EDC96751B581133007C0EE8 /* icon-youtube.png */,
+				5EDC967A1B584E61007C0EE8 /* icon-back.png */,
 				5EDC96481B57FAD4007C0EE8 /* Images.xcassets */,
 				5EDC964A1B57FAD4007C0EE8 /* LaunchScreen.xib */,
 				5EDC963B1B57FAD4007C0EE8 /* Supporting Files */,
@@ -199,8 +242,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EDC96721B581124007C0EE8 /* icon-twitter.png in Resources */,
+				5EDC966E1B581114007C0EE8 /* icon-facebook.png in Resources */,
+				5EDC967B1B584E61007C0EE8 /* icon-back.png in Resources */,
 				5EDC96471B57FAD4007C0EE8 /* Main.storyboard in Resources */,
+				5EDC96701B58111B007C0EE8 /* icon-instagram.png in Resources */,
 				5EDC964C1B57FAD4007C0EE8 /* LaunchScreen.xib in Resources */,
+				5EDC96741B58112B007C0EE8 /* icon-vimeo.png in Resources */,
+				5EDC96761B581133007C0EE8 /* icon-youtube.png in Resources */,
 				5EDC96491B57FAD4007C0EE8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +268,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EDC96441B57FAD4007C0EE8 /* ViewController.m in Sources */,
+				5EDC96441B57FAD4007C0EE8 /* DetailViewController.m in Sources */,
+				5EDC967E1B584FB4007C0EE8 /* ZoomingIconTransition.m in Sources */,
+				5EDC966C1B580D7E007C0EE8 /* UIColor+ItemColors.m in Sources */,
 				5EDC96411B57FAD4007C0EE8 /* AppDelegate.m in Sources */,
 				5EDC963E1B57FAD4007C0EE8 /* main.m in Sources */,
+				5EDC96691B580CF9007C0EE8 /* SocialItem.m in Sources */,
+				5EDC96631B57FB01007C0EE8 /* MenuViewController.m in Sources */,
+				5EDC96661B57FB94007C0EE8 /* SocialItemCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
